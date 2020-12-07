@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane layoutY="-14.0" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="serverinfo.serverinfoController">
+      <children>
+         <PieChart layoutX="681.0" layoutY="68.0" prefHeight="400.0" prefWidth="474.0" />
+      <ListView layoutX="59.0" layoutY="502.0" prefHeight="270.0" prefWidth="955.0" />
+      <Button layoutX="1048.0" layoutY="502.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="99.0" text="조회" />
+      <PieChart layoutX="59.0" layoutY="68.0" prefHeight="400.0" prefWidth="548.0" />
+      </children>
+   </AnchorPane>
